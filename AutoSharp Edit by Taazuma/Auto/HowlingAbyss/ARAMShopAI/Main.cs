@@ -103,6 +103,12 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
             "Blade of the Ruined King", "The Bloodthirster",
             "Berserker's Greaves", "Infinity Edge", "Statikk Shiv", "Statikk Shiv"
         };
+		
+		public static string[] Kindred =
+        {
+            "Blade of the Ruined King", "The Bloodthirster",
+            "Berserker's Greaves", "Infinity Edge", "Statikk Shiv", "Statikk Shiv"
+        };
 
         public static string[] Azir =
         {
@@ -129,6 +135,12 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
         };
 
         public static string[] Braum =
+        {
+            "Randuin's Omen", "Frozen Heart",
+            "Mercury's Treads", "Thornmail", "Locket of the Iron Solari", "Banshee's Veil"
+        };
+		
+		public static string[] TahmKench =
         {
             "Randuin's Omen", "Frozen Heart",
             "Mercury's Treads", "Thornmail", "Locket of the Iron Solari", "Banshee's Veil"
@@ -289,6 +301,12 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
             "The Black Cleaver", "Warmogs",
             "Mercury's Treads", "Statikk Shiv", "Warmog's Armor", "Randuin's Omen"
         };
+		
+		public static string[] Illaoi =
+        {
+            "The Black Cleaver", "Warmogs",
+            "Mercury's Treads", "Statikk Shiv", "Warmog's Armor", "Randuin's Omen"
+        };
 
         public static string[] Jax =
         {
@@ -385,11 +403,29 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
             "Athene's Unholy Grail", "Morellonomicon",
             "Sorcerer's Shoes", "Rod of Ages", "Rabadon's Deathcap", "Liandry's Torment"
         };
+		
+		public static string[] Taliyah =
+        {
+            "Athene's Unholy Grail", "Morellonomicon",
+            "Sorcerer's Shoes", "Rod of Ages", "Rabadon's Deathcap", "Liandry's Torment"
+        };
+		
+		public static string[] AurelionSol =
+        {
+            "Athene's Unholy Grail", "Morellonomicon",
+            "Sorcerer's Shoes", "Rod of Ages", "Rabadon's Deathcap", "Liandry's Torment"
+        };
 
         public static string[] Lucian =
         {
             "Infinity Edge", "Statikk Shiv", "The Bloodthirster",
             "Berserker's Greaves", "Statikk Shiv", "Blade of the Ruined King"
+        };
+		
+		 public static string[] Jhin =
+        {
+            "Youmuu's Ghostblade", "Duskblade of Draktharr", "Boots of Swiftness",
+            "Rapid Firecannon", "Infinity Edge", "Lord Dominik's Regards"
         };
 
         public static string[] Lulu =
@@ -624,12 +660,6 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
         {
             "Athene's Unholy Grail", "Morellonomicon",
             "Sorcerer's Shoes", "Rod of Ages", "Rabadon's Deathcap", "Void Staff"
-        };
-
-        public static string[] TahmKench =
-        {
-            "Sunfire Cape", "Spirit Visage",
-            "Mercury's Treads", "Warmog's Armor", "Randuin's Omen", "Liandry's Torment"
         };
 
         public static string[] Talon =
@@ -1020,8 +1050,6 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
                 List = Swain;
             if (name.Equals("Syndra"))
                 List = Syndra;
-            if (name.Equals("TahmKench"))
-                List = TahmKench;
             if (name.Equals("Talon"))
                 List = Talon;
             if (name.Equals("Taric"))
@@ -1082,6 +1110,20 @@ namespace AutoSharp.Auto.HowlingAbyss.ARAMShopAI
                 List = Zilean;
             if (name.Equals("Zyra"))
                 List = Zyra;
+			if (name.Equals("Illaoi"))
+                List = Illaoi;
+			if (name.Equals("Kindred"))
+                List = Kindred;
+			if (name.Equals("TahmKench"))
+                List = Tahm Kench;
+			if (name.Equals("AurelionSol"))
+                List = Aurelion Sol;
+			if (name.Equals("Jhin"))
+                List = Jhin;
+			if (name.Equals("Taliyah"))
+                List = Taliyah;
+			
+			
             //Cuz while this doesn't have all assemblies will just go for ad
             //List = Sivir; 
             Queue = ShoppingQueue();
